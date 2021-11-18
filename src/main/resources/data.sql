@@ -1,0 +1,3 @@
+INSERT INTO PANORMIC_HOTEL_RESERVATION VALUES (1, 'Raja','D','RESERVED','rajashekara.d@gmail.com','9481801654',sysdate,sysdate+1,3,1,1,405);    
+INSERT INTO PANORMIC_HOTEL_RESERVATION VALUES (2, 'Rajas','DS','RESERVED','rajashekara.d@gmail.com','9481801654',sysdate,sysdate+1,3,1,1,505); 
+INSERT INTO PANORMIC_HOTEL_RESERVATION VALUES (3, 'Rajashe','Dev','RESERVED','rajashekara.d@gmail.com','9481801654',sysdate,sysdate+1,3,1,1,506);
