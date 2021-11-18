@@ -25,7 +25,7 @@
   In STS/Eclipse post import right click and run as JUnit Test</br>
 		
 • The test coverage </br>
-  Achived 97% of test Coverage for the code </br>
+  Achieved 97% of test Coverage for the code </br>
 		
 • Rest End points tests </br>
 post deploying use the below end point url's in post man to test it. </br>
