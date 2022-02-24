@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.techmahindra.assignment.domain;
+package com.my.assignment.domain;
 
 import java.io.Serializable;
 import java.util.Date;

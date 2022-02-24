@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.techmahindra.assignment.controller;
+package com.my.assignment.controller;
 
 
 import org.slf4j.Logger;
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.techmahindra.assignment.domain.PanormicHotelReservation;
-import com.techmahindra.assignment.exception.PanormicHotelReservationException;
-import com.techmahindra.assignment.response.ReservationServiceResponse;
-import com.techmahindra.assignment.service.ReservationService;
+import com.my.assignment.domain.PanormicHotelReservation;
+import com.my.assignment.exception.PanormicHotelReservationException;
+import com.my.assignment.response.ReservationServiceResponse;
+import com.my.assignment.service.ReservationService;
 
 /**
  * @author Rajashekara

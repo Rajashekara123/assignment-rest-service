@@ -1,13 +1,13 @@
 /**
  * 
  */
-package com.techmahindra.assignment.service;
+package com.my.assignment.service;
 
 import org.springframework.stereotype.Service;
 
-import com.techmahindra.assignment.domain.PanormicHotelReservation;
-import com.techmahindra.assignment.exception.PanormicHotelReservationException;
-import com.techmahindra.assignment.response.ReservationServiceResponse;
+import com.my.assignment.domain.PanormicHotelReservation;
+import com.my.assignment.exception.PanormicHotelReservationException;
+import com.my.assignment.response.ReservationServiceResponse;
 
 /**
  * @author Rajashekara 

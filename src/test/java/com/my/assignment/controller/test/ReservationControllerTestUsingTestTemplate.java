@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.techmahindra.assignment.controller.test;
+package com.my.assignment.controller.test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -20,8 +20,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.techmahindra.assignment.domain.PanormicHotelReservation;
-import com.techmahindra.assignment.response.ReservationServiceResponse;
+import com.my.assignment.domain.PanormicHotelReservation;
+import com.my.assignment.response.ReservationServiceResponse;
 
 /**
  * @author Rajashekara

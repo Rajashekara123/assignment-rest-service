@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.techmahindra.assignment.service.impl;
+package com.my.assignment.service.impl;
 
 import java.util.Optional;
 
@@ -10,11 +10,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.techmahindra.assignment.domain.PanormicHotelReservation;
-import com.techmahindra.assignment.exception.PanormicHotelReservationException;
-import com.techmahindra.assignment.repository.ReservationRepository;
-import com.techmahindra.assignment.response.ReservationServiceResponse;
-import com.techmahindra.assignment.service.ReservationService;
+import com.my.assignment.domain.PanormicHotelReservation;
+import com.my.assignment.exception.PanormicHotelReservationException;
+import com.my.assignment.repository.ReservationRepository;
+import com.my.assignment.response.ReservationServiceResponse;
+import com.my.assignment.service.ReservationService;
 
 /**
  * @author Rajashekara

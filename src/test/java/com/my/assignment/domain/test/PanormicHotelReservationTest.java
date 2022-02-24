@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.techmahindra.assignment.domain.test;
+package com.my.assignment.domain.test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertFalse;
@@ -15,8 +15,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.techmahindra.assignment.domain.PanormicHotelReservation;
-import com.techmahindra.assignment.response.ReservationServiceResponse;
+import com.my.assignment.domain.PanormicHotelReservation;
+import com.my.assignment.response.ReservationServiceResponse;
 
 /**
  * @author Rajashekara
@@ -216,6 +216,15 @@ public class PanormicHotelReservationTest {
 	@Test
 	public void testHashCode() {	
 		int hascode= entity.hashCode();		
+		System.out.println("hash code is - "+hascode);
+		System.out.println("hash code in binary "+ Integer.toBinaryString(hascode));
+		int hascodeAfterbitMovement = (hascode >>> 16);
+		System.out.println(" 16 bit with zeros on right "+hascodeAfterbitMovement);
+		System.out.println("in binary "+Integer.toBinaryString(hascodeAfterbitMovement));
+		int index = ((hascode & (hascode >>> 16)) & 98);
+		System.out.println(" hashing "+index);
+		System.out.println(" hashing "+Integer.toBinaryString(index));
+		System.out.println("value of 0x7FFFFFFF"+0x7FFFFFFF+" decimal value ");
 		assertTrue(hascode != 0 );
 	}
 	

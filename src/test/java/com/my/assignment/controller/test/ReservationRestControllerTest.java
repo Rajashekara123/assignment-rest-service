@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.techmahindra.assignment.controller.test;
+package com.my.assignment.controller.test;
 
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -18,11 +18,11 @@ import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import com.techmahindra.assignment.controller.ReservationRestController;
-import com.techmahindra.assignment.domain.PanormicHotelReservation;
-import com.techmahindra.assignment.exception.PanormicHotelReservationException;
-import com.techmahindra.assignment.response.ReservationServiceResponse;
-import com.techmahindra.assignment.service.impl.ReservationServiceImpl;
+import com.my.assignment.controller.ReservationRestController;
+import com.my.assignment.domain.PanormicHotelReservation;
+import com.my.assignment.exception.PanormicHotelReservationException;
+import com.my.assignment.response.ReservationServiceResponse;
+import com.my.assignment.service.impl.ReservationServiceImpl;
 
 import junit.framework.Assert;
 

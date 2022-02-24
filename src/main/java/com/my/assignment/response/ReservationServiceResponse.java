@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.techmahindra.assignment.response;
+package com.my.assignment.response;
 
 import java.util.Date;
 
